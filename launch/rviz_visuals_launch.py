@@ -22,6 +22,14 @@ def generate_launch_description():
             name='circle_wave_node',
             output='screen'
         ),
+
+        # Node to run the circle_path
+        Node(
+            package='rviz2_visuals',
+            executable='circle_path',
+            name='circle_path_node',
+            output='screen'
+        ),
         
         # Node to run RViz2
         ExecuteProcess(

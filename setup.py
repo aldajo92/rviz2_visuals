@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'circle_wave = rviz2_visuals.circle_wave:main',
+            'circle_path = rviz2_visuals.circle_path:main',
         ],
     },
 )
