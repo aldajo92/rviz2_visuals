@@ -27,6 +27,7 @@ setup(
             'arrow_random = rviz2_visuals.arrow_random:main',
             'circle_wave = rviz2_visuals.circle_wave:main',
             'circle_path = rviz2_visuals.circle_path:main',
+            'image_publisher = rviz2_visuals.image_publisher:main',
         ],
     },
 )
