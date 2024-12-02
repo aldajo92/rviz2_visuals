@@ -38,6 +38,14 @@ def generate_launch_description():
             name='circle_path_node',
             output='screen'
         ),
+
+        # Node to run the iamge_publisher
+        Node(
+            package='rviz2_visuals',
+            executable='image_publisher',
+            name='image_publisher_node',
+            output='screen'
+        ),
         
         # Node to run RViz2
         ExecuteProcess(
