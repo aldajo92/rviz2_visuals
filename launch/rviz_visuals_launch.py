@@ -14,6 +14,14 @@ def generate_launch_description():
             output='screen',
             arguments=['0', '0', '0', '0', '0', '0', 'world', 'map']
         ),
+        
+        # Node to run the arrow_random
+        Node(
+            package='rviz2_visuals',
+            executable='arrow_random',
+            name='arrow_random_node',
+            output='screen'
+        ),
 
         # Node to run the circle_wave_publisher
         Node(
